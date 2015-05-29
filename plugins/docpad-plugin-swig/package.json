@@ -1,0 +1,24 @@
+{
+	"name": "docpad-plugin-swig",
+	"version": "2.0.3",
+	"description": "Adds support for the swig templating engine to DocPad.",
+	"homepage": "http://github.com/thisispete/docpad-plugin-swig",
+	"keywords": [
+		"docpad",
+		"docpad-plugin",
+		"swig",
+		"templating",
+		"templates",
+		"render",
+		"rendering"
+	],
+	"author": "thisispete",
+	"engines" : {
+		"node": ">=0.4.0",
+		"docpad": "6.x"
+	},
+	"dependencies": {
+		"swig": "1.4.2"
+	},
+	"main": "./out/swig.plugin.js"
+}
