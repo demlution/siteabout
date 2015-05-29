@@ -97,18 +97,18 @@
                 <li class="fh-about">
                     <dl>
                     <dt>了解担路</dt>
-                    <dd><a target="_blank" href="#">关于我们</a></dd>
-                    <dd><a target="_blank" href="#">文化宗旨</a></dd>
-                    <dd><a target="_blank" href="#">联系我们</a></dd>
-                    <dd><a target="_blank" href="#">担路招聘</a></dd>
+                    <dd><a target="_blank" href="/about.html">关于我们</a></dd>
+                    <dd><a target="_blank" href="/culture.html">文化宗旨</a></dd>
+                    <dd><a target="_blank" href="/contact.html">联系我们</a></dd>
+                    <dd><a target="_blank" href="/hr.html">担路招聘</a></dd>
                     </dl>
                 </li>
                 <li class="fh-member">
                     <dl>
                     <dt>用户与企业</dt>
-                    <dd><a target="_blank" href="#">用户协议</a></dd>
-                    <dd><a target="_blank" href="#">隐私条款</a></dd>
-                    <dd><a target="_blank" href="#">商家合作</a></dd>
+                    <dd><a target="_blank" href="/protocol.html">用户协议</a></dd>
+                    <dd><a target="_blank" href="/terms.html">隐私条款</a></dd>
+                    <dd><a target="_blank" href="/biz">商家合作</a></dd>
                     <dd><a target="_blank" href="http://www.danlu.net/agent.html">代理加盟</a></dd>
                     </dl>
                 </li>
@@ -130,7 +130,7 @@
         </div>
         <div class="wfot-bot">
         <div class="wfot-copy">
-            <p>Copyright &copy; 2011-2013 <a href="http://www.demlution.com/">上海担路网络科技有限公司</a>(担路网 Demlution.com) 版权所有 沪ICP备12018506号-1 &nbsp;<script type="text/javascript">
+            <p>Copyright &copy; 2011-2015 <a href="http://www.demlution.com/">上海担路网络科技有限公司</a>(担路网 Demlution.com) 版权所有 沪ICP备12018506号-1 &nbsp;<script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F75fb47e8b856d549e2e9b28533498cdb' type='text/javascript'%3E%3C/script%3E"));
 </script></p>
