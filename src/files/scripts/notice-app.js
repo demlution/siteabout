@@ -27,7 +27,7 @@ App.paginationTemplate = '\
     ';
 
 
-var API_ROOT = "http://127.0.0.1:8000/company/api/v1/";
+var API_ROOT = "http://www.demlution.com/company/api/v1/";
 
 App.models.Announcement = Backbone.Model.extend({
 	urlRoot: API_ROOT + 'announcement'
