@@ -67,7 +67,7 @@
 .w-nav .wnav-li { }
 .w-nav li { padding:0 20px; float:left; color:#787979}
 .w-nav li a {color:#444; font-size:14px; display:block; line-height:60px; font-weight:bold; border-bottom:3px #F9F9F9 solid;}
-.w-nav li a:hover { border-bottom:3px #007acf solid; color:#007acf; text-decoration:none; }
+.w-nav li a:hover,.w-nav li a.on { border-bottom:3px #007acf solid; color:#007acf; text-decoration:none; }
 
 .w-htoool { position:absolute;bottom:20px;right:10px;}
 .sweixin{float:right; width:28px; height:28px; margin:0 2px; background:url(../images/wblogo.jpg) -28px -28px no-repeat; cursor:pointer; display:inline-block;}
@@ -125,13 +125,15 @@
 
 
 
-.Home-function{ width:100%; padding:30px 0 40px 0;background: #fafafa;}
+.Home-function{ width:100%; padding:30px 0 40px 0;background:url(../images/six.jpg) 0 0 repeat;border-bottom:  1px solid #d9d9d9;border-top:  1px solid #d9d9d9;}
 .Home-function dl{ width:1200px; display:block; margin:0 auto;}
+.Home-function dl a {background-color:#fff;display: block;float:left; width:380px; margin:10px 9px 0; border-radius:3px;height:200px;}
+.Home-function dl a:hover {background-color:#fafafa;}
 .Home-function dt{ float:left; width:1000px; margin:0 0 10px 0; line-height:30px; font-family:"微软雅黑"; font-size:14px;}
 .Home-function dt span{ float:left; font-size:24px; color:#333;}
 .Home-function dt label{ float:left; margin-left:10px; color:#888888;}
 .Home-function dt a{ float:right; padding-right:20px; background:url(../images/Home-4.png) right center no-repeat; color:#333;}
-.Home-function dd{ float:left; width:380px; margin:10px 9px 0; background-color:#fff; padding:15px 0; border-radius:3px; height:170px;}
+.Home-function dd{ float:left;  padding:15px 0;width:380px;height:170px; }
 .Home-function dd a{ float:left; width:320px;}
 .Home-function dd img{ display:block; width:69px; height:69px; margin:0 auto;}
 .Home-function dd span{ display:block; font-family:"微软雅黑"; font-size:20px; color:#333; margin-top:10px; text-align:center;}
