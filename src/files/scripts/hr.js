@@ -1,6 +1,6 @@
 $(function(){
   $(".panel-heading").click(function(){
-    $(".panel-collapse").hide(300);
+    $(".panel-collapse").hide();
     $(this).parent(".panel").find(".panel-collapse").toggle(300);
   })
 })

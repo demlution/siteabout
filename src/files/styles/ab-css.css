@@ -179,7 +179,16 @@
 .panel-title a.collapsed{ color:#484848;}
 .panel-title a.elite{ color:#484848;  background: url(../images/icon_elite.png) no-repeat;background-position: top right;}
 .panel-body {padding: 15px;}
+.panel-body ul li {font-size: 14px;color: #686868;line-height: 1.8;}
+.panel-body ol {margin-top: 10px;margin-bottom: 20px;}
+.panel-body ol li {margin-top: 0px;list-style: inside decimal;font-size: 14px;color: #686868;font-weight: normal;}
+.more-job{ text-align:center; font-size:16px; font-weight:bold;  color:#484848; padding-top:100px; padding-bottom:170px;}
 
+/* 发展历程 */
+.history{padding-left: 300px;}
+.history p{background: url(../images/y-bg.png) repeat-y 75px 0;color: #5d6062;font-size: 16px}
+.history p strong{width: 55px;padding-right:40px;display: inline-block;background: url(../images/time-icon.png) no-repeat right 0;height: 35px;font-weight: normal;color: #00b7ee;font-size: 16px;line-height: 30px;text-align: right;padding-bottom: 50px;}
+.history p span{width: 53px;padding-right:30px;display: inline-block;background: url(../images/dian.png) no-repeat right 0;height: 16px;line-height: 16px;color: #787878;font-size: 14px;text-align: right;padding-bottom: 60px;margin-right: 20px;}
 
 
 /* footer
