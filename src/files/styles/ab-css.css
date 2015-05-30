@@ -190,6 +190,9 @@
 .history p strong{width: 55px;padding-right:40px;display: inline-block;background: url(../images/time-icon.png) no-repeat right 0;height: 35px;font-weight: normal;color: #00b7ee;font-size: 16px;line-height: 30px;text-align: right;padding-bottom: 50px;}
 .history p span{width: 53px;padding-right:30px;display: inline-block;background: url(../images/dian.png) no-repeat right 0;height: 16px;line-height: 16px;color: #787878;font-size: 14px;text-align: right;padding-bottom: 60px;margin-right: 20px;}
 
+/* 联系我们 */
+.cleft { width: 300px;float: left;}
+.cright { width: 600px;float: right;}
 
 /* footer
 --------------------------------------------------------------------------------------------------*/
