@@ -13,10 +13,10 @@ $$('.index-nav-body-item').addEvent('mouseenter',function(){
     toLeftWord2=this.getElement('div[class="item-info2"]');
     toGray=this.getElement('div[class*="index-nav-body-bg"]');
 
-    startMove(toRightImg1,77,250);
-    startMove(toRightImg2,-100,77);
-    startMove(toLeftWord1,41,-175);
-    startMove(toLeftWord2,250,41);  
+    startMove(toRightImg1,102,300);
+    startMove(toRightImg2,-100,102);
+    startMove(toLeftWord1,66,-175);
+    startMove(toLeftWord2,300,66);  
     startOpacity(toGray,0,1)   
 
 })
@@ -29,10 +29,10 @@ $$('.index-nav-body-item').addEvent('mouseleave',function(){
   toLeftWord2=this.getElement('div[class="item-info2"]');
   toGray=this.getElement('div[class*="index-nav-body-bg"]');
 
-      startMove(toRightImg1,250,77);
-    startMove(toRightImg2,77,-100);
-    startMove(toLeftWord1,-175,41);
-    startMove(toLeftWord2,41,250);  
+      startMove(toRightImg1,300,102);
+    startMove(toRightImg2,102,-100);
+    startMove(toLeftWord1,-175,66);
+    startMove(toLeftWord2,66,300);  
     startOpacity(toGray,1,0)   
 })
 
