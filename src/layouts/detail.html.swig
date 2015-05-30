@@ -13,7 +13,7 @@
         <li><a href="/protocol.html">用户协议</a></li>
         <li><a href="/terms.html">隐私条款</a></li>
         <li><a href="/biz.html">商家合作</a></li>
-        <li><a href="#">担路公告</a></li>
+        <li><a href="/notice.html">担路公告</a></li>
         <li><a href="/contact.html">联系我们</a></li>
         <li><a href="/hr.html">担路招聘</a></li>
         <li><a href="/agent.html">代理加盟</a></li>
