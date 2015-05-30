@@ -6,7 +6,7 @@
     <div class="a_nav">
       <div class="a_navcot clearfix">
         <ul>
-        <li><a href="/about.html" class="on">关于我们</a></li>
+        <li><a href="/about.html">关于我们</a></li>
         <li><a href="/culture.html">文化宗旨</a></li>
         <li><a href="/photo.html">担路相册</a></li>
         <li><a href="/history.html">发展历程</a></li>

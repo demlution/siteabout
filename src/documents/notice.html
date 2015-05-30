@@ -2,28 +2,28 @@
 title: "担路公告-担路网"
 layout: "detail"
 isPage: "true"
+scripts: ["/vendor/jquery.js", "/vendor/json2.js", "/vendor/underscore.js", "/vendor/backbone.js", "/vendor/backbone.fetch-cache.js", "/vendor/backbone-tastypie.js", "/scripts/notice-app.js"]
 ---
 
-        <div class="page-content content">
-        <h4>公告</h4>
-        <div class="cot-box">
-<div class="w-right"><div class="hd">网站公告</div><div class="bd"><ul><li class="cls clearfix"><p class="date">2015-02-08</p><p class="intro"><a rel="sexylightbox" target="_blank" href="/announcements/16/?height=430&amp;width=900&amp;inlineId=alerttxt">担路网2015春节放假通知</a></p><div class="more"><p>
-    担路网春节假期安排为：2015年02月12日 至 2015年02月26日。
+
+<script type="text/template" id="notice-list-tpl">
+<% _.each(announcementList, function (notice) { %>
+  <div class="item notice-id-<%= notice.get('id') %>">
+  	<div class="notice-title"><%= notice.get('title') %></div>
+  	<div class="notice-content"><%= notice.get('content') %></div>
+  	<div class="notice-date"><%= notice.get('creation_date').split('T')[0] %></div>
+  </div>
+<% }); %>
+</script>
 
 
-    节假日期间公司不再受理新业务办理事宜，网站交接和售后培训也将暂停，若有紧急情况请于每天上午10.00-12.00，下午2.00-5.00拨打以下联系方式：</p></div></li><li class="cls clearfix"><p class="date">2014-09-04</p><p class="intro"><a rel="sexylightbox" target="_blank" href="/announcements/13/?height=430&amp;width=900&amp;inlineId=alerttxt">担路网办公室停电通知</a></p><div class="more"><p>接供电所通知,由于担路网办公室所在区域需要进行电缆切割施工,确定本周五(2014年9月5日)中午12:30至16:30进行区域拉闸停电,届时客服QQ以及固定电话将全部暂停服务,为广大客户带来的不便深表歉意.如有紧急事宜可直接拨打紧急联系人手机151210335</p></div></li><li class="cls clearfix"><p class="date">2014-06-26</p><p class="intro"><a rel="sexylightbox" target="_blank" href="/announcements/12/?height=430&amp;width=900&amp;inlineId=alerttxt">网站联系信息中的地图更新公告</a></p><div class="more"><p>由于某种原因导致谷歌地图的设置部分无法顺畅的在国内打开,影响到网站后台的联系信息中的地址无法精确调校.
-为了解决此问题,我们特此上线百度地图功能,以后新客户的地址显示将默认使用百度地图.老客户如果需要切换可以在 商家中心 的 基本资料 的最底部进行勾选,同时</p></div></li><li class="cls clearfix"><p class="date">2014-05-28</p><p class="intro"><a rel="sexylightbox" target="_blank" href="/announcements/11/?height=430&amp;width=900&amp;inlineId=alerttxt">担路网办公室搬迁通告</a></p><div class="more"><p>在广大客户的支持下，担路网一路快速发展，人员规模逐步扩大，为了进一步提升服务质量，担路网办公地址将搬迁至：上海市松江区九杜路349号立同商务大厦418室~419室，办公面积达到400平米。搬迁期间（2014年5月31日～6月2日），公司固话（021-39517</p></div></li><li class="cls clearfix"><p class="date">2014-05-09</p><p class="intro"><a rel="sexylightbox" target="_blank" href="/announcements/10/?height=430&amp;width=900&amp;inlineId=alerttxt">担路网服务器升级通知</a></p><div class="more"><p>为了提高网站的访问速度，担路网将于2014.5.10号晚上24:00～凌晨6:00进行服务器硬件扩展与系统升级，届时部分相关网站管理后台将会无法登陆，网站前台页面访问并不受影响，望客户周知。
+<div class="page-content content">
+	<h4>公告</h4>
+	<div class="cot-box">
+		<div id="notice-wrap">
+		</div>
+		<div id="pagination-wrap">
+ 		</div>
 
-升级完后若有客户发现任何网站访问速度缓慢等问题，请第一时间联系</p></div></li><li class="cls clearfix"><p class="date">2014-05-09</p><p class="intro"><a rel="sexylightbox" target="_blank" href="/announcements/9/?height=430&amp;width=900&amp;inlineId=alerttxt">关于网站备案的特别说明</a></p><div class="more"><p>网站备案所需资料：
-
-公司营业执照副本原件
-法人身份证原件（或彩色扫描件）
-网站负责人身份证原件
-公司公章
- 
-
-
-若有客户需要备案，请带好上述所有资料，另外50元备案费，到我公司进行相关备案操作。
-公司地址：上海沪松公路1519弄37号（</p></div></li></ul></div></div>
-        </div>
-        </div>
+	</div>
+</div>

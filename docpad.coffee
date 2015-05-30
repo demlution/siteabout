@@ -6,7 +6,7 @@ docpadConfig = {
     templateData:
         site:
             title:"担路网"
-            scripts:["/vendor/jquery.js","/scripts/q.js"]
+            scripts:["/vendor/jquery.js","/scripts/q.js", "/scripts/scripts.js"]
 
 		 getPreparedTitle: -> if @document.title then "#{@document.title} | #{@site.title}" else @site.title
 
