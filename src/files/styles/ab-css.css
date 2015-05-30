@@ -168,6 +168,20 @@
 .font30 { font-size: 30px;}
 .fbold { font-weight: bold; }
 
+/* 担路招聘 */
+.panel-group{float:left;width:475px;margin:5px 0;}
+.panel-group .panel {margin: 7px 0;overflow: hidden;  display:inline-block; width:475px;border-radius:0; border:0;box-shadow:0;-webkit-box-shadow:0; }
+.panel-default .panel-heading {color: #000;background-color: #f2f2f2;padding:0; border-radius:0; }
+.panel-title {font-size: 16px;color: inherit; height:60px; line-height:60px;}
+.panel-collapse{ border-radius:0; border-left:3px solid #f2f2f2; border-right:3px solid #f2f2f2; border-bottom:3px solid #f2f2f2;display: none;}
+.panel-title>a {color: inherit;}
+.panel-title a { display:block; font-size:16px;  font-weight:bold; text-decoration:none; color:#20b3f6; text-indent:20px; background:url(../images/join-r.png) no-repeat; background-position:440px center;}
+.panel-title a.collapsed{ color:#484848;}
+.panel-title a.elite{ color:#484848;  background: url(../images/icon_elite.png) no-repeat;background-position: top right;}
+.panel-body {padding: 15px;}
+
+
+
 /* footer
 --------------------------------------------------------------------------------------------------*/
 .wj-fotbg {margin-top:0;background:#fff;margin-top: 50px;}

@@ -46,15 +46,6 @@
                         <a href="/account/signup/" target="_blank"><li class="rft"></li></a>
                 </ul>
                 <div class="markinfo"><img alt="微信二维码" src="../images/w-wx.jpg" /></div>
-                <script>
-                $(function(){
-                    $(".sweixin").hover(function(){
-                        $(".markinfo").show();
-                        },function(){
-                            $(".markinfo").hide();
-                            })
-                    })
-                </script>
             </div>
             </div>
         </div>
