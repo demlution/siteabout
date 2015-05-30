@@ -40,7 +40,7 @@
             <div class="w-htoool">
                 <a href="http://weibo.com/demlution" target="_blank" title="担路新浪微博" class="sweibo showweibo"></a>
                 <a href="http://t.qq.com/danluwangluokeji" target="_blank" title="担路腾讯微博" class="sqq"></a>
-                <a title="官方微信号:demlution" class="sweixin" href="http://www.danlu.net/weixin.html"></a>
+                <a title="官方微信号:demlution" class="sweixin" target="_blank" href="http://www.danlu.net/weixin.html"></a>
                 <ul class="loginbox">
                         <a href="/account/login/" target="_blank"><li class="lft"></li></a>
                         <a href="/account/signup/" target="_blank"><li class="rft"></li></a>
@@ -88,19 +88,19 @@
                 <li class="fh-about">
                     <dl>
                     <dt>了解担路</dt>
-                    <dd><a target="_blank" href="/about.html">关于我们</a></dd>
-                    <dd><a target="_blank" href="/culture.html">文化宗旨</a></dd>
-                    <dd><a target="_blank" href="/contact.html">联系我们</a></dd>
-                    <dd><a target="_blank" href="/hr.html">担路招聘</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/about.html">关于我们</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/culture.html">文化宗旨</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/contact.html">联系我们</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/hr.html">担路招聘</a></dd>
                     </dl>
                 </li>
                 <li class="fh-member">
                     <dl>
                     <dt>用户与企业</dt>
-                    <dd><a target="_blank" href="/protocol.html">用户协议</a></dd>
-                    <dd><a target="_blank" href="/terms.html">隐私条款</a></dd>
-                    <dd><a target="_blank" href="/biz">商家合作</a></dd>
-                    <dd><a target="_blank" href="http://www.danlu.net/agent.html">代理加盟</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/protocol.html">用户协议</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/terms.html">隐私条款</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/biz.html">商家合作</a></dd>
+                    <dd><a target="_blank" href="http://about.demlution.com/agent.html">代理加盟</a></dd>
                     </dl>
                 </li>
                 <li class="fh-cotact">

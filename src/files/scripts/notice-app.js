@@ -82,6 +82,11 @@ App.views.AnnouncementListView = Backbone.View.extend({
 		var pageHtml = pageTemplate({meta:that.collection.meta, getPageUrl:that.getPageUrl, pager:pager});
 		$('#pagination-wrap').html(pageHtml);
 
+		$(".notice-title").click(function(){
+			$(".notice-content").hide();
+			$(this).parent(".item").find(".notice-content").toggle(300);
+		});
+
 		that.is_loading = false;
 	},
 

@@ -2,28 +2,37 @@
 title: "担路公告-担路网"
 layout: "detail"
 isPage: "true"
-scripts: ["/vendor/jquery.js", "/vendor/json2.js", "/vendor/underscore.js", "/vendor/backbone.js", "/vendor/backbone.fetch-cache.js", "/vendor/backbone-tastypie.js", "/scripts/notice-app.js"]
+scripts: ["/vendor/json2.js", "/vendor/underscore.js", "/vendor/backbone.js", "/vendor/backbone.fetch-cache.js", "/vendor/backbone-tastypie.js", "/scripts/notice-app.js","/scripts/notice.js",]
 ---
 
 
 <script type="text/template" id="notice-list-tpl">
-<% _.each(announcementList, function (notice) { %>
+<div class="notice-left">
+<% _.each(announcementList.slice(0,5), function (notice) { %>
   <div class="item notice-id-<%= notice.get('id') %>">
-  	<div class="notice-title"><%= notice.get('title') %></div>
+  	<div class="notice-title"><a href="javascript:void(0)"><%= notice.get('title') %> [<span class="notice-date"><%= notice.get('creation_date').split('T')[0] %></span>]</a></div>
   	<div class="notice-content"><%= notice.get('content') %></div>
-  	<div class="notice-date"><%= notice.get('creation_date').split('T')[0] %></div>
+  	
   </div>
 <% }); %>
+</div>
+<div class="notice-right">
+<% _.each(announcementList.slice(5,10), function (notice) { %>
+  <div class="item notice-id-<%= notice.get('id') %>">
+  	<div class="notice-title"><a href="javascript:void(0)"><%= notice.get('title') %> [<span class="notice-date"><%= notice.get('creation_date').split('T')[0] %></span>]</a></div>
+  	<div class="notice-content"><%= notice.get('content') %></div>
+  	
+  </div>
+<% }); %>
+</div>
 </script>
 
 
 <div class="page-content content">
-	<h4>公告</h4>
 	<div class="cot-box">
-		<div id="notice-wrap">
+		<div id="notice-wrap" class="clearfix">
 		</div>
 		<div id="pagination-wrap">
  		</div>
-
 	</div>
 </div>
