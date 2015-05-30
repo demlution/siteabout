@@ -109,10 +109,10 @@
 .index-nav .index-nav-body .index-nav-body-item .t-s { text-align: center; }
 .index-nav .index-nav-body .index-nav-body-item .item-info { width: 170px; position: absolute; left: 66px; top: 150px; }
 .index-nav .index-nav-body .index-nav-body-item .item-info h3 { font-weight: normal; color: #000000; }
-.index-nav .index-nav-body .index-nav-body-item .item-info div { color: #666666; }
+.index-nav .index-nav-body .index-nav-body-item .item-info div { color: #666666;text-align: left;}
 .index-nav .index-nav-body .index-nav-body-item .item-info2 { width: 170px; position: absolute; left: -170px; top: 150px; }
 .index-nav .index-nav-body .index-nav-body-item .item-info2 h3 { font-weight: normal; color: #ffffff; }
-.index-nav .index-nav-body .index-nav-body-item .item-info2 div { color: #ffffff; }
+.index-nav .index-nav-body .index-nav-body-item .item-info2 div { color: #ffffff;text-align: left;}
 .index-nav .index-nav-body .index-nav-body-item:hover { text-decoration: none; }
 .index-nav .index-nav-body .chanping-pic { position: absolute; width: 100px; height: 100px; background: url(../images/icon1-1.png) no-repeat left top; }
 .index-nav .index-nav-body .zuyuan-pic { width: 100px; height: 100px; position: absolute; background: url(../images/icon1-2.png) no-repeat left top; }
@@ -147,8 +147,8 @@
 .a_nav {}
 .a_navcot { width: 1200px;margin: 10px auto 10px;text-align: center;}
 .a_nav li { display:inline-block;line-height: 35px; text-align: center;padding: 0 5px;}
-.a_nav li a { font-size: 14px;border-radius: 15px;border: 1px #e5e5e5 solid;padding:5px 10px;background: #fff;}
-.a_nav li a:hover,.a_nav li a.on {background:#007acf;text-decoration: none;color: #fff;border: 1px #fff solid;}
+.a_nav li a { font-size: 14px;border-radius: 21px;border: 1px #e5e5e5 solid;padding:5px 10px;background: #fff;}
+.a_nav li a:hover,.a_nav li a.on {background:#007acf;text-decoration: none;color: #fff;border: 1px #007acf solid;}
 
 .a_content { font-size: 14px;line-height: 24px; padding: 30px 0;}
 .a_content h4 { line-height: 45px; font-size: 24px;font-weight: normal;color: #666;padding: 20px 0 10px;}
