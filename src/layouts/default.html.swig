@@ -33,7 +33,7 @@
                     <li><a title="担路平台" target="_blank" href="http://www.demlution.com/index.html">担路平台</a></li>
                     <li><a title="担路网-网站建设" target="_blank" href="http://www.danlu.net">担路产品</a></li>
                     <li><a title="担路帮助" target="_blank" href="http://www.demlution.com/about/help/">担路帮助</a></li>
-                    <li><a class="on" title="担路介绍" target="_blank" href="http://www.demlution.com/about/about/">担路介绍</a></li>        
+                    <li><a class="on" title="担路介绍" target="_blank" href="http://about.demlution.com">担路介绍</a></li>        
                     </ul>
                 </div>
             </div>
