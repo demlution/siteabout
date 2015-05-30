@@ -7,3 +7,10 @@ $(function() {
 			$(elem).addClass('on');
 	})
 })
+$(function(){
+                    $(".sweixin").hover(function(){
+                        $(".markinfo").show();
+                        },function(){
+                            $(".markinfo").hide();
+                            })
+                    })

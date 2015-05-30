@@ -44,10 +44,3 @@ $$('.index-nav-body-item').addEvent('mouseleave',function(){
     obj.set('morph', {duration: 400,link: "ignore",transition: Fx.Transitions.Sine.easeOut});
     obj.morph({'opacity': [start,end],});
   }
-$(function(){
-                    $(".sweixin").hover(function(){
-                        $(".markinfo").show();
-                        },function(){
-                            $(".markinfo").hide();
-                            })
-                    })

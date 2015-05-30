@@ -40,7 +40,7 @@
             <div class="w-htoool">
                 <a href="http://weibo.com/demlution" target="_blank" title="担路新浪微博" class="sweibo showweibo"></a>
                 <a href="http://t.qq.com/danluwangluokeji" target="_blank" title="担路腾讯微博" class="sqq"></a>
-                <a title="官方微信号:demlution" class="sweixin"></a>
+                <a title="官方微信号:demlution" class="sweixin" href="http://www.danlu.net/weixin.html"></a>
                 <ul class="loginbox">
                         <a href="/account/login/" target="_blank"><li class="lft"></li></a>
                         <a href="/account/signup/" target="_blank"><li class="rft"></li></a>
