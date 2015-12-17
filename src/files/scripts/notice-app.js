@@ -83,8 +83,10 @@ App.views.AnnouncementListView = Backbone.View.extend({
 		$('#pagination-wrap').html(pageHtml);
 
 		$(".notice-title").click(function(){
-			$(".notice-content").hide();
-			$(this).parent(".item").find(".notice-content").toggle(300);
+			if ($(this).parent('.item').find('.notice-content').is(':visible'))
+				$(".notice-content").hide();
+			else
+				$(this).parent(".item").find(".notice-content").toggle(300);
 		});
 
 		that.is_loading = false;
